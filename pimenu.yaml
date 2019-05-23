@@ -1,0 +1,33 @@
+# Menu-Setup.
+#
+# name and label are required for each item
+# color and icon are optional
+# only gifs (48x48) are supported
+#
+---
+  -
+    name: "Menu"
+    label: "Menu"
+    color: "#FF851B"
+    icon: "menu"
+    items:
+      -
+        name : "Camera"
+        label: "Camera"
+        color: "#3D9970"
+        icon : "camera"
+      -
+        name : "USB"
+        label: "USB"
+        color: "#39CCCC"
+        icon : "usb"
+      -
+        name : "Backup"
+        label: "Backup"
+        color: "#7FDBFF"
+        icon : "backup"
+  -
+     name: "Exit"
+     label: "Exit"
+     color: "#85144B"
+     icon: "exit"
